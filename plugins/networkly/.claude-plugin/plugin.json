@@ -1,0 +1,10 @@
+{
+  "name": "networkly",
+  "version": "0.1.0",
+  "description": "Manage Networkly events, schedules, registration and integrations from your assistant.",
+  "author": {
+    "name": "Networkly",
+    "url": "https://networkly.app"
+  },
+  "homepage": "https://networkly.app"
+}

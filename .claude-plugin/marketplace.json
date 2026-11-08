@@ -1,0 +1,13 @@
+{
+  "name": "networkly-plugins",
+  "owner": {
+    "name": "Networkly"
+  },
+  "plugins": [
+    {
+      "name": "networkly",
+      "source": "./plugins/networkly",
+      "description": "Manage Networkly events, schedules, registration and integrations from your assistant."
+    }
+  ]
+}

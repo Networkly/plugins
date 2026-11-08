@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "networkly": {
+      "type": "http",
+      "url": "https://networkly.app/api/mcp",
+      "oauth": {
+        "authServerMetadataUrl": "https://networkly.app/.well-known/oauth-authorization-server"
+      }
+    }
+  }
+}

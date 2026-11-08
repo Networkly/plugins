@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "networkly",
+  "version": "0.1.0",
+  "description": "Manage Networkly events, schedules, registration and integrations from your assistant.",
+  "author": {
+    "name": "Networkly",
+    "url": "https://networkly.app"
+  },
+  "homepage": "https://networkly.app",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Networkly",
+        "shortDescription": "IT events and registrations",
+        "longDescription": "Manage Networkly events, schedules, registration and integrations from your assistant.",
+        "developerName": "Networkly",
+        "category": "Productivity",
+        "websiteURL": "https://networkly.app",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "defaultPrompt": "Create a Networkly event draft from this official announcement."
+      }
+    }
+  }
+}

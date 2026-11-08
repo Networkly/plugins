@@ -1,0 +1,20 @@
+{
+  "name": "networkly-plugins",
+  "interface": {
+    "displayName": "Networkly"
+  },
+  "plugins": [
+    {
+      "name": "networkly",
+      "source": {
+        "source": "local",
+        "path": "./plugins/networkly"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
